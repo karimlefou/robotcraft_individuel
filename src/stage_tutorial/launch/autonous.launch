@@ -1,0 +1,10 @@
+<launch>
+   <node name="stageros" pkg="stage_ros" type="stageros" args="$(find stage_tutorial)/world/rooms.worlds"/>
+    
+   <node name="navigation_node" pkg="stage_tutorial" type="talker.py" output="screen"/>
+
+   
+
+    
+
+</launch>

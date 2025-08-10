@@ -1,0 +1,1 @@
+/home/vboxuser/catkin_ws/devel/.private/stage_tutorial/lib/pkgconfig/stage_tutorial.pc

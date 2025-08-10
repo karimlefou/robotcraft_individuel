@@ -1,0 +1,8 @@
+prefix=/home/vboxuser/catkin_ws/devel/.private/simstage_groupe4
+
+Name: simstage_groupe4
+Description: Description of simstage_groupe4
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

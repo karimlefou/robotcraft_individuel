@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/vboxuser/catkin_ws/devel/.private/simstage_groupe4/setup.sh

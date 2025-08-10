@@ -1,0 +1,1 @@
+/home/vboxuser/catkin_ws/devel/.private/talker_example/share/talker_example/cmake/talker_exampleConfig-version.cmake

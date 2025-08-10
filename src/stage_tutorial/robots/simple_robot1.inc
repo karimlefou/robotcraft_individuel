@@ -1,0 +1,30 @@
+define laser ranger(
+	sensor(
+		range [0.0 5.6]
+		fov 240.0
+		samples 240
+	)
+
+	color "blue"
+	size [0.1 0.1 0.1]
+
+	block(
+		points 4
+		point[0] [0 0]
+		point[1] [0 1]
+		point[2] [1 1]
+		point[3] [1 0]
+		z [0 1]
+	)
+)
+
+define simple_robot1 position(
+	odom_error [0.03 0.03 0.00 0.05]
+	localization "odom"
+	size [0.7 0.4 0.3]
+	gui_nose 1
+	drive "diff"
+	color "green"
+
+	laser(pose [0.23 0.0 -0.15 0.0])
+)

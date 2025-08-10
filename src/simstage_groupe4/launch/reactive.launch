@@ -1,0 +1,10 @@
+<launch>
+   <node name="stageros" pkg="stage_ros" type="stageros" args="$(find simstage_groupe4)/world/rooms.worlds"/>
+    
+   <node name="navigation_node" pkg="simstage_groupe4" type="talker.py" output="screen"/>
+
+   
+
+    
+
+</launch>

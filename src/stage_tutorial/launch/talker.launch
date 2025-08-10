@@ -1,0 +1,8 @@
+<launch>
+
+    <node name="talker_node" pkg="stage_tutorial" type="talker.py"  output="screen" >
+    
+        
+    </node>
+
+</launch>

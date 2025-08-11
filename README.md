@@ -7,18 +7,17 @@ This project is divided into several parts where you will progressively build a 
 ## Craft 6B (Simulating with ROS) – Part 1: Package Creation and Simulation in Stage
 
 ### Objectives:
-- Create a ROS package named `simstage_groupX` (where `X` is your group number).
+- Create a ROS package named `simstage_group4` 
 - Inside this package, set up all the necessary files to simulate a virtual world containing a robot in Stage.
 - Obtain or create a map for your simulation.  
-  > *Tip:* You can search for occupancy grid maps online.  
   > *Note:* The `.pgm` format is just another bitmap image format similar to `.png`.
 
 ### Technical details:
-- Your robot should be composed of **at least 3 polygonal blocks**.  
-- Creativity in your robot’s design will earn you extra points.
+- my robot is composed of **at least 3 polygonal blocks**.  
+- Creativity in your robot’s design will earn you extra points.(pack-man)
 
 ### To do:
-- Create a folder `simstage_groupX` with a typical ROS package structure (`src`, `launch`, `worlds`, etc.).
+- Create a folder `simstage_group4` with a typical ROS package structure (`src`, `launch`, `worlds`, etc.).
 - Prepare a `.world` file for Stage that includes your map and robot.
 - Define your robot model with its 3 polygonal blocks in a `.yaml` or `.model` file.
 
@@ -33,8 +32,7 @@ This project is divided into several parts where you will progressively build a 
   - Move continuously to eventually explore all areas of the environment (no stopping).
 
 ### Constraints:
-- Unlike the tutorial example, your robot **must never stop moving**.
-- Take inspiration from random walk behaviors and/or wall-following robots.
+- Unlike the tutorial example, my robot  never stop moving.
 
 ### To do:
 - Write a ROS node (in Python or C++) that subscribes to sensor data (e.g., laser scans) and publishes velocity commands (`cmd_vel`).
